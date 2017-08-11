@@ -1,5 +1,7 @@
-<%@ include file="/WEB-INF/jsp/init.jsp" %>
+<%@ include file="init.jsp" %>
 
 <p>
-	<b><liferay-ui:message key="liferay-springmvc-sample.caption"/></b>
+
+	<h1><liferay-ui:message key="liferay-springmvc-sample.sayHello" arguments="${user.firstName}" /></h1>
+
 </p>
