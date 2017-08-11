@@ -3,7 +3,7 @@
 <portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
 	<portlet>
 		<portlet-name>liferay-springmvc-sample</portlet-name>
-		<display-name>liferay-springmvc-sample Spring MVC Portlet</display-name>
+		<display-name>Triberay's Spring MVC Portlet</display-name>
 		<portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
 		<init-param>
 			<name>contextConfigLocation</name>
@@ -15,8 +15,8 @@
 		</supports>
 		<resource-bundle>content.Language</resource-bundle>
 		<portlet-info>
-			<title>liferay-springmvc-sample Spring MVC Portlet</title>
-			<short-title>liferay-springmvc-sample Spring MVC Portlet</short-title>
+			<title>Triberay's Spring MVC Portlet</title>
+			<short-title>Triberay's Spring MVC Portlet</short-title>
 			<keywords>liferay-springmvc-sample</keywords>
 		</portlet-info>
 		<security-role-ref>
