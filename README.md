@@ -1,3 +1,10 @@
+
+<div align="center">
+  <a href="https://travis-ci.org/triberay/liferay-springmvc-sample">
+    <img src="https://travis-ci.org/triberay/liferay-springmvc-sample.svg?branch=master" alt="Travis CI" />
+  </a>
+</div>
+
 # A sample Spring MVC portlet for Liferay 7
 
 Just a basic portlet build with [Spring Portlet MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/portlet.html). The module can be build with both [Gradle](https://gradle.org/) or [Maven](https://maven.apache.org/).
