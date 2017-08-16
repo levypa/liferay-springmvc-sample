@@ -1,9 +1,11 @@
 
-<div align="center">
-  <a href="https://travis-ci.org/triberay/liferay-springmvc-sample">
+<a href="https://travis-ci.org/triberay/liferay-springmvc-sample">
     <img src="https://travis-ci.org/triberay/liferay-springmvc-sample.svg?branch=master" alt="Travis CI" />
-  </a>
-</div>
+</a>
+<a href="https://codecov.io/gh/triberay/liferay-springmvc-sample">
+    <img src="https://codecov.io/gh/triberay/liferay-springmvc-sample/branch/master/graph/badge.svg" alt="Coverage" />
+</a>
+
 
 # A sample Spring MVC portlet for Liferay 7
 
