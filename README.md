@@ -16,7 +16,6 @@ The base for the portlet was generated using the [maven archetype](https://dev.l
 The following modifications or additions have been added on top of the generated code:
 * Upgraded the Spring version to 4.3.10-RELEASE
 * First name of the user is added in the hello message
-* Unit test
-* [Travis CI](https://travis-ci.org/triberay/liferay-springmvc-sample) & [Code coverage](https://codecov.io/gh/triberay/liferay-springmvc-sample) reporting
-
-More coming soon! 
+* Unit tests
+* [Travis CI](https://travis-ci.org/triberay/liferay-springmvc-sample) configuration for continuous integration (see [.travis.yml](https://github.com/triberay/liferay-springmvc-sample/blob/master/.travis.yml))
+* Code coverage with [JaCoCo](http://www.eclemma.org/jacoco/) & [Codecov.io](https://codecov.io/) (see [.travis.yml](https://github.com/triberay/liferay-springmvc-sample/blob/master/.travis.yml))
