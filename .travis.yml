@@ -1,12 +1,20 @@
 language: java
 sudo: false
-script: mvn clean jacoco:prepare-agent install jacoco:report
+jdk:
+  - oraclejdk8
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent verify sonar:sonar
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
 addons:
   sonarcloud:
-    organization: "triberay"
+    organization: triberay
     token:
       secure: vaTOVEEN6lT5cJmW6S+FESDtgjH3cmm48ez/uXCG2DyU0iMfBrs9UqJAkNsreefIfsP+gJYNY3X+O/gWF/eMzGbSpsPH84pFT3ize4uDP+yRDOM4DOcqjsJ+UA5AxvqKKX7uqIQbyJE0z3v10oodHgJG41qyQ7ek4lnqeZMmpMQL8RJ5hjXic2fJ98m1Tu+djh6ZdCR2wMlq9E2IuSYhLSFWjlIzMQZJyv1jDORhyzd/cqrdDcqCMxfEQ6+6YF5U5i9EXJYGmjs74MoysCQUYjA5sOhJb2bNzncwa6IfLGNupdOFo1oyvLnXYOmNf0lG/O52dvuitWv7kbJseahBanVrMh/CFYDQFBbbDvuGDTZEP8LZvwJC4g2ONea1Czel6V68KeXFZ4G+UE2eDFyRhQaltVhpuFosnd/0fXeMPAE1lkiTo8Ga7Ryj/NGqxnyLgSEEs6NMlNOJu54qy+zypv4/lfuCkTRQWBPGDQHLfOrEi9TRbliXE0JZXDQvzsvEpgl+VEn4BXgIqrbw0NZr6lLVdxW5vkHKBCAHSb69Ln2Dk/pQwDlmVGo5KvNsNaUKDE18mdVXE7/1+Lj+DML5OtX0ruI9YK8OdPKoT/VGwRHLP7JRayT7tSPyjhAaKBEfBjGPTribzr8jVcl1ZaXlIrG0ypQiHvZOOBSUZ7DV44o=
-script:
-  - sonar-scanner
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+notifications:
+  slack:
+    secure: dvuV5oG+wme0gez7//nG4i0gFqzeTLSz3xew2WK9gUL44OkLPblJYCDqXE99p35tXRtzX3uxdagEs/+eSl9AStxp3jlJJkNgUTj54eTHMNk1Rqh0YOqoo2w18q8dDie8YtGIdIgOfjKDcXo5HhKpt9mpLB75CiAeTKILChQP6hAwzWxd03tMzByibEsVwZWLuSSNu1fEhZRtqmOqIxnAvcX/QnQD7NvYhAMYKtK6z2D4l8fCrj7wqipgP7FHLwFpQ/MC+lahbhhQuVHSxg0+BtQLmuuSF+h3TvvpR36CNNxSgKhlW7sjfyVWP/uPGNqoaCYa1b7WEgS6SCgmvGE5DVnLhgfHln6yS/XH5vbP2EISUcoia3WMoBCXDKn8R6Zv9U+giq58KkwRHtgy1A2w9BA36i60nuDhNzQXAqO01qFH+F9ot/x+D7lE+3d/bKGipzjUPMRszajI2x0MW6bd8uu6XIU5Df/LqklBz5xAVRrGPfv5tAU5Va7fxm2Aoe+1Rmp2attoVZ0ZNyVy8MX6f6r1LMjWh/2JSg50w87sasFo51cgq0nSS8aAriDQ1c79zYDoILo2+s/15szvgLzKSMumUXpiwbcagpqaDxNPK/jPkaNRLXH3T5bLQXqOh6tdjOI19/UZuaeUnNdyBMAk8nrfbhzHUGFAu5crZ4J2gTg=
