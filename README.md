@@ -5,9 +5,10 @@
 <a href="https://codecov.io/gh/triberay/liferay-springmvc-sample">
     <img src="https://codecov.io/gh/triberay/liferay-springmvc-sample/branch/master/graph/badge.svg" alt="Coverage" />
 </a>
+[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=com.triberay:triberay-springmvc-sample)](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample)
 
 
-# A sample Spring MVC portlet for Liferay 7
+# A sample Spring MVC portlet for Liferay 7 & DXP
 
 Just a basic portlet build with [Spring Portlet MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/portlet.html). The module can be build with both [Gradle](https://gradle.org/) or [Maven](https://maven.apache.org/).
 
@@ -18,4 +19,5 @@ The following modifications or additions have been added on top of the generated
 * First name of the user is added in the hello message
 * Unit tests
 * [Travis CI](https://travis-ci.org/triberay/liferay-springmvc-sample) configuration for continuous integration (see [.travis.yml](https://github.com/triberay/liferay-springmvc-sample/blob/master/.travis.yml))
-* Code coverage with [JaCoCo](http://www.eclemma.org/jacoco/) & [Codecov.io](https://codecov.io/) (see [.travis.yml](https://github.com/triberay/liferay-springmvc-sample/blob/master/.travis.yml))
+* Code coverage with [JaCoCo](http://www.eclemma.org/jacoco/) & [Codecov.io](https://codecov.io/) 
+* Code analysis with [SonarCloud](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample)
