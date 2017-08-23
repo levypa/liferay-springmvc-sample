@@ -5,8 +5,9 @@
 <a href="https://codecov.io/gh/triberay/liferay-springmvc-sample">
     <img src="https://codecov.io/gh/triberay/liferay-springmvc-sample/branch/master/graph/badge.svg" alt="Coverage" />
 </a>
-[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=com.triberay:triberay-springmvc-sample)](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample)
-
+<a href="https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample">
+    <img src="https://sonarcloud.io/api/badges/gate?key=com.triberay:triberay-springmvc-sample" alt="Quality Gate" />
+</a>
 
 # A sample Spring MVC portlet for Liferay 7 & DXP
 
