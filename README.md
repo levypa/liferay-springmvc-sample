@@ -14,7 +14,7 @@ The following modifications or additions have been added on top of the generated
 * Code analysis with [SonarCloud](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample)
 * Code coverage with [JaCoCo](http://www.eclemma.org/jacoco/) & [Codecov.io](https://codecov.io/) 
 
-## Continuous Integration, Code Quality & Code Coverage
+## Continuous Integration, Code Quality and Code Coverage
 
 Because we value Test Driven Development, we have set up Continuous Integration from the start using the following services:
 
@@ -24,4 +24,4 @@ Because we value Test Driven Development, we have set up Continuous Integration 
     [SonarCloud](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample) for testing the quality of the code 
 * <a href="https://codecov.io/gh/triberay/liferay-springmvc-sample"><img src="https://codecov.io/gh/triberay/liferay-springmvc-sample/branch/master/graph/badge.svg" alt="Coverage" /></a> 
     [CodeCov](https://codecov.io/gh/triberay/liferay-springmvc-sample) for reporting how much of the code is covered by the unit tests
-
+    
