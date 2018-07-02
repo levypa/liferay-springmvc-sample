@@ -20,7 +20,7 @@ Because we value Test Driven Development, we have set up Continuous Integration 
 
 * <a href="https://travis-ci.org/triberay/liferay-springmvc-sample"><img src="https://travis-ci.org/triberay/liferay-springmvc-sample.svg?branch=master" alt="Travis CI" /></a>
     [Travis CI](https://travis-ci.org/triberay/liferay-springmvc-sample) for building the code and running the unit tests
-* <a href="https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample"><img src="https://sonarcloud.io/api/badges/gate?key=com.triberay:triberay-springmvc-sample" alt="Quality Gate" /></a>
+* <a href="https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample"><img src="https://sonarcloud.io/api/project_badges/measure?project=com.triberay%3Atriberay-springmvc-sample&metric=alert_status" alt="Quality Gate" /></a>
     [SonarCloud](https://sonarcloud.io/dashboard/index/com.triberay:triberay-springmvc-sample) for testing the quality of the code 
 * <a href="https://codecov.io/gh/triberay/liferay-springmvc-sample"><img src="https://codecov.io/gh/triberay/liferay-springmvc-sample/branch/master/graph/badge.svg" alt="Coverage" /></a> 
     [CodeCov](https://codecov.io/gh/triberay/liferay-springmvc-sample) for reporting how much of the code is covered by the unit tests
